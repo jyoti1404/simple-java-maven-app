@@ -23,6 +23,7 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
         <configuration>
+          <executable>/usr/java/jdk1.8.0_171-amd64</executable>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
